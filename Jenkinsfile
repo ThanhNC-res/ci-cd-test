@@ -1,6 +1,6 @@
 /* Requires the Docker Pipeline plugin */
 pipeline {
-    agent { docker pull image 'python:3.9'  }
+    agent { }
     stages {
         stage('build') {
             steps {
